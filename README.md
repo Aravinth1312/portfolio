@@ -6,7 +6,7 @@
     <p></p>
     <p style="margin: 0; font-size: 16px; color: #eaeaea;">🚀 A modern, interactive developer portfolio showcasing your personal and professional journey ✨</p>
     <p></p>
-    <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/home.PNG" alt="Portfolio Home" width="90%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" />
+    <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/public/home.PNG" alt="Portfolio Home" width="90%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" />
   </div>
 </div>
 
@@ -15,22 +15,22 @@
 <div align="center">
   <div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 20px;">
     <div style="flex: 1;">
-      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/about.png" alt="About Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/public/about.PNG" alt="About Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
       <p><em>About section with journey and qualities</em></p>
     </div>
     <div style="flex: 1;">
-      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/projects.png" alt="Projects Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/public/projects.PNG" alt="Projects Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
       <p><em>Projects with carousel & tech stack</em></p>
     </div>
   </div>
 
   <div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 10px;">
     <div style="flex: 1;">
-      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/skills.png" alt="Skills Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/public/skills.PNG" alt="Skills Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
       <p><em>Skills visualized with icons and animation</em></p>
     </div>
     <div style="flex: 1;">
-      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/connect.png" alt="Connect Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+      <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/public/contact.PNG" alt="Connect Section" width="100%" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
       <p><em>Social links with custom styling</em></p>
     </div>
   </div>
