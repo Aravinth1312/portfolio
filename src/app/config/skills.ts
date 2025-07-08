@@ -1,59 +1,23 @@
-/*
- * Copyright 2025 Praveen Kumar
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 import { Skill } from '../types/types';
 
 export const skills: Skill[] = [
   {
-    category: 'Mobile',
+    category: 'Frontend',
     technologies: [
       {
-        name: 'Flutter',
-        color: '#02569B',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg',
+        name: 'HTML',
+        color: '#E34F26',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
       },
       {
-        name: 'React Native',
-        color: '#61DAFB',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-      },
-      {
-        name: 'Java',
-        color: '#D23C29',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
-      },
-      {
-        name: 'Dart',
-        color: '#02569B',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
-      },
-      {
-        name: 'TypeScript',
-        color: '#3178C6',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+        name: 'CSS',
+        color: '#1572B6',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
       },
       {
         name: 'JavaScript',
         color: '#F7DF1E',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-      },
-      {
-        name: 'Tailwind CSS',
-        color: '#06B6D4',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
       },
     ],
   },
@@ -61,9 +25,9 @@ export const skills: Skill[] = [
     category: 'Backend',
     technologies: [
       {
-        name: 'Go',
-        color: '#00ADD8',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg',
+        name: 'Java',
+        color: '#D23C29',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
       },
       {
         name: 'Node.js',
@@ -76,24 +40,9 @@ export const skills: Skill[] = [
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
       },
       {
-        name: 'Nvim',
-        color: '#4E9F3D',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-original.svg',
-      },
-      {
-        name: 'Kibana',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kibana/kibana-original.svg',
-      },
-      {
-        name: 'Logstash',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/logstash/logstash-plain.svg',
-      },
-      {
-        name: 'ElasticSearch',
-        color: '#005571',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg',
+        name: 'Python',
+        color: '#3776AB',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
       },
     ],
   },
@@ -101,64 +50,44 @@ export const skills: Skill[] = [
     category: 'Database',
     technologies: [
       {
+        name: 'MySQL',
+        color: '#4479A1',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+      },
+      {
         name: 'PostgreSQL',
         color: '#336791',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
       },
       {
-        name: 'Redis',
-        color: '#DC382D',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
-      },
-      {
-        name: 'Firebase',
-        color: '#FFCA28',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
-      },
-      {
-        name: 'Kafka',
-        color: '#231F20',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg',
+        name: 'MongoDB',
+        color: '#47A248',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       },
     ],
   },
   {
-    category: 'DevOps',
+    category: 'Testing',
     technologies: [
       {
-        name: 'Kubernetes',
-        color: '#326CE5',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg',
+        name: 'Software Testing',
+        color: '#FFA500',
+        icon: 'https://cdn-icons-png.flaticon.com/512/906/906343.png', // Custom icon as devicon doesn't have one
+      },
+    ],
+  },
+  {
+    category: 'Tools & Version Control',
+    technologies: [
+      {
+        name: 'Git',
+        color: '#F05032',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
       },
       {
-        name: 'Helm',
-        color: '#0F1689',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg',
-      },
-      {
-        name: 'Jenkins',
-        color: '#D33833',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg',
-      },
-      {
-        name: 'GitHub Actions',
-        color: '#2088FF',
+        name: 'GitHub',
+        color: '#181717',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-      },
-      {
-        name: 'AWS',
-        color: '#FF9900',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
-      },
-      {
-        name: 'Prometheus',
-        color: '#E6522C',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg',
-      },
-      {
-        name: 'Grafana',
-        color: '#F46800',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg',
       },
     ],
   },
