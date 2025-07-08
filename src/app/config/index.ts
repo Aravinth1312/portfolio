@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Aravinth M
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,14 +25,14 @@ import { skills } from '@/app/config/skills';
  */
 export const portfolioConfig: PortfolioConfig = {
   siteMetadata: {
-    title: 'Praveen Kumar',
-    description: 'Portfolio website by Praveen',
-    author: 'Praveen Kumar',
+    title: 'Aravinth M',
+    description: 'Portfolio website by Aravinth',
+    author: 'Aravinth M',
   },
 
   navigation: {
     logo: {
-      text: 'PK',
+      text: 'AM',
     },
     links: [
       { href: 'home', label: 'Home' },
@@ -46,11 +46,16 @@ export const portfolioConfig: PortfolioConfig = {
   sections: {
     home: {
       greeting: "Hi, I'm",
-      name: 'Praveen Kumar',
+      name: 'Aravinth M',
       typingTexts: [
-        'Building digital experiences',
-        'Solving complex problems',
-        'Creating user-focused apps',
+        'Engineering scalable backend systems',
+        'Building full-stack web applications',
+        'Writing clean, testable code',
+        'Solving real-world problems with software',
+        'Working with Node.js, MongoDB & PostgreSQL',
+        'Practicing basic software testing',
+        'Using Git & GitHub for version control',
+        'Learning and evolving as a developer',
       ],
       description:
         "I'm enthusiastic about discovering new digital technologies and expanding my knowledge of innovative, creative design principles. My curiosity drives me to continuously learn about modern technologies and their potential to create meaningful experiences.",
@@ -61,13 +66,13 @@ export const portfolioConfig: PortfolioConfig = {
       title: 'About',
       subtitle: 'Me',
       bio: [
-        "Hi, I'm a Software Engineering enthusiast living in Bangalore. I enjoy turning creative ideas into working solutions in my spare time.",
-        "I've been exploring tech for about 2 years, with interests spanning across different development areas. I'm fascinated by intuitive digital experiences that just feel right.",
-        "When I'm not working on code professionally, you'll find me reading about emerging technologies, contributing to open-source projects, and constantly picking up new skills and hobbies.",
+        "Hi, I'm Aravinth M, a Computer Science and Engineering graduate from Chennai with a passion for backend and full-stack development.",
+        "I've been exploring software development for the past 2 years, gaining hands-on experience with Node.js, MongoDB, PostgreSQL, and basic testing.",
+        "When I'm not coding, I enjoy learning new technologies, improving my problem-solving skills, and working on personal or internship-based projects to build real-world applications.",
       ],
       details: [
-        { label: 'Location', value: 'Based in Bangalore' },
-        { label: 'Experience', value: '2+ Years Experience' },
+        { label: 'Location', value: 'Based in Chennai' },
+        { label: 'Experience', value: '6 months intern Experience' },
       ],
       qualities: [
         {
@@ -109,7 +114,7 @@ export const portfolioConfig: PortfolioConfig = {
       projects: projects,
       viewMoreButton: {
         label: 'View More Projects',
-        url: 'https://github.com/PraveenGongada',
+        url: 'https://github.com/Aravinth1312',
       },
     },
 
@@ -131,7 +136,7 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   footer: {
-    copyright: `© ${new Date().getFullYear()} Praveen Kumar. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Aravinth M. All rights reserved.`,
     tagline: 'Designed and built with ❤️',
   },
 };
