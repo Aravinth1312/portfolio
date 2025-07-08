@@ -5,7 +5,7 @@
   
   <!-- Initials -->
   <text x="50" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold"
-        text-anchor="middle" dominant-baseline="middle" fill="white">PK</text>
+        text-anchor="middle" dominant-baseline="middle" fill="white">AM</text>
   
   <!-- Right code bracket -->
   <text x="68" y="25" font-family="monospace" font-size="24" fill="#34d399"
