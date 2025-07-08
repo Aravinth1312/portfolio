@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Aravinth M
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,20 +19,20 @@ import { Project } from '../types/types';
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Shortly',
+    title: 'Flight Booking System',
     description:
-      'A comprehensive, modern URL shortener featuring user accounts, link management, and an analytics dashboard.',
-    tags: ['Go', 'PostgreSQL'],
-    githubLink: 'https://github.com/PraveenGongada/Shortly',
-    liveLink: 'https://shortly-go.vercel.app/',
+      'A full-featured flight booking web application with user registration, flight search, seat booking, admin approval, and booking history management using Java Servlets and MySQL.',
+    tags: ['Java', 'JSP', 'Servlets', 'MySQL', 'HTML', 'CSS'],
+    githubLink: 'https://github.com/Aravinth1312',
+
     type: 'Backend',
     thumbnail:
-      'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/thumbnail.png',
+      'https://raw.githubusercontent.com/harismuneer/Flight-Booking-System-JavaServlets_App/master/Images/main.png',
     carouselImages: [
-      'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/register.png',
-      'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/dashboard.png',
-      'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/create.png',
-      'https://raw.githubusercontent.com/PraveenGongada/Shortly/refs/heads/main/frontend/docs/images/delete.png',
+      'https://raw.githubusercontent.com/harismuneer/Flight-Booking-System-JavaServlets_App/master/Images/login.png',
+      'https://raw.githubusercontent.com/harismuneer/Flight-Booking-System-JavaServlets_App/master/Images/book.png',
+      'https://raw.githubusercontent.com/harismuneer/Flight-Booking-System-JavaServlets_App/master/Images/approve.png',
+      'https://raw.githubusercontent.com/harismuneer/Flight-Booking-System-JavaServlets_App/master/Images/current.png',
     ],
     carouselConfig: {
       interval: 2000,
@@ -41,31 +41,30 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Catalyst',
+    title: 'Library Management System',
     description:
-      'Elegant TUI tool for triggering GitHub Actions workflows with matrix configurations for mobile app deployments.',
-    tags: ['Go', 'Charm.sh'],
-    githubLink: 'https://github.com/PraveenGongada/Catalyst',
+      'A web-based library management system developed using Java Servlets and MySQL, enabling user login, book issuing/return, inventory tracking, and admin control over student records.',
+    tags: ['Java', 'Servlets', 'MySQL', 'HTML', 'CSS', 'Web App'],
+    githubLink: 'https://github.com/Aravinth1312',
     liveLink: '',
     type: 'CLI',
     thumbnail:
-      'https://raw.githubusercontent.com/PraveenGongada/Catalyst/refs/heads/main/docs/images/deployment-summary.png',
+      'https://raw.githubusercontent.com/guptaanmol184/LibraryManagementSystem/refs/heads/master/screens/login.png',
     gifUrl:
       'https://raw.githubusercontent.com/PraveenGongada/Catalyst/refs/heads/main/docs/images/catalyst-demo.gif',
   },
   {
     id: 3,
-    title: 'MovieDB',
+    title: 'Hostel Management System',
     description:
-      'A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience.',
-    tags: ['Flutter', 'Dart'],
-    githubLink: 'https://github.com/PraveenGongada/MovieDB',
-    type: 'App',
-    thumbnail:
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/thumbnail.png',
+      'A full-stack hostel management web app using Java Servlets and MySQL for managing student details, leave requests, attendance, and warden approvals.',
+    tags: ['Java', 'Servlets', 'MySQL', 'HTML', 'CSS', 'Web App'],
+    githubLink: 'https://github.com/Aravinth1312',
+    type: 'Web App',
+    thumbnail: 'https://raw.githubusercontent.com/starkblaze01/Hostel-Management/Docs/home.png',
     carouselImages: [
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/home.png',
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/movie.png',
+      'https://raw.githubusercontent.com/starkblaze01/Hostel-Management/Docs/dashboard.png',
+      'https://raw.githubusercontent.com/starkblaze01/Hostel-Management/Docs/room%20cleaning.png',
     ],
     carouselConfig: {
       interval: 2000,
