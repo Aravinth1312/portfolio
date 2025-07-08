@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Aravinth M
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -381,7 +381,7 @@ const Projects: React.FC = () => {
         {/* View more button */}
         <div className="mt-16 text-center">
           <Button
-            href="https://github.com/PraveenGongada"
+            href="https://github.com/Aravinth1312"
             label="View More Projects"
             icon={<Github size={18} />}
             variant="secondary"
