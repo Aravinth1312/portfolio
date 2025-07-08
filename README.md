@@ -6,7 +6,7 @@
     <p></p>
     <p style="margin: 0; font-size: 16px; color: #eaeaea;">🚀 A modern, interactive developer portfolio showcasing your personal and professional journey ✨</p>
     <p></p>
-    <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/home.png" alt="Portfolio Home" width="90%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" />
+    <img src="https://raw.githubusercontent.com/Aravinth1312/portfolio/main/docs/images/home.PNG" alt="Portfolio Home" width="90%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" />
   </div>
 </div>
 
