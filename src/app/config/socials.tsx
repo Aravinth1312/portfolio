@@ -11,7 +11,7 @@ export const socials: Social[] = [
   {
     name: 'LinkedIn',
     icon: <Linkedin size={20} />,
-    url: 'https://www.linkedin.com/in/m-aravinth-190b8a24b/',
+    url: 'https://www.linkedin.com/in/aravinth-m-190b8a24b',
     color: '#0077B5',
   },
   {
